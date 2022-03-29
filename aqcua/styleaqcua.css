@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header {
+    border-bottom: 2px solid #32b9cd;
+}
+
+.container {
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.header .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.agora {
+    font-weight: 600;
+}
