@@ -1,0 +1,231 @@
+/*.header{
+    
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    border-bottom: 2px black solid;
+    
+
+}
+*/
+
+
+.header {
+    border-bottom: solid black 2px;;
+}
+
+.header a {
+    float: left;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  
+.header a:hover {
+    
+    color: white;
+    border-bottom: solid 2px black;
+    
+  }
+  
+  
+.header-right {
+    float: right;
+  }
+
+
+body{
+    text-align: center;
+    background-color: rgb(12, 4, 14);
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.principal{
+    background-color: rgba(255, 255, 255, 0.87);
+    width: 650px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.div-esquerda{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.div-direita{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.logo{
+    width: 80px; height: 90px;
+}
+*/
+
+button{
+    margin-right: 7px;
+    background-color: #70b93fe0;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+#vlrSoja{
+  font-size: 22px;
+}
+
+.imagem-logo{
+  width: 400px;
+  margin-top: 100px;
+}
+
+.div1{
+  background-color: rgb(234, 235, 231);
+  width: 100vw;
+  height: 100vh;
+  margin-top: 150px;
+  
+}
+
+.p_frase{
+  color: white;
+  border: black 2px;
+  font-size: 22px;
+}
+
+.card-login{
+    width: 60%;
+    height: 90%;
+    background-color: #04A75D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 90px;
+    border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+
+}
+.card-login > h1{
+    color: black;
+}
+
+.campotexto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 8px;
+}
+
+.campotexto > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(247, 247, 247);
+    color: #5f5f5fde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.campotexto > label{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.btn-acessar{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px black;
+    color: #f0ffffde;
+    background: rgb(12, 4, 14);
+}
+
+.div-direita{
+    width: 35vw;
+    
+}
+
+.main-cadastro{
+    
+    background-image: linear-gradient(to top,#EDDDBC 25%,#BDC3B9,#96A1A5);
+    /*
+    #053624;
+    */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tela{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 90%;
+}
+
+.btn-acesso {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+   
+}
+
+.btn-noLogin {
+    color: black;    
+}
+
+.btn-noLogin2 {
+    color: black;
+}
+
+
+
+
