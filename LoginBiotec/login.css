@@ -1,0 +1,158 @@
+body {
+    background-image: linear-gradient(to top,#EDDDBC 25%,#BDC3B9,#96A1A5);
+    height: 100vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+ 
+  /* HEADER */
+  
+  .containerheader{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .logo {
+    margin-left: 40px;
+  }
+  
+  .menu ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .menu ul li {
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 30px;
+  }
+  
+  .menu ul li:last-child {
+    margin-left: 15px;
+  }
+  
+  .menu ul li:nth-child(6) {
+    border-left: 2px solid #000;
+    padding-left: 15px;
+  }
+  
+  .menu a {
+    color: #000;
+    text-decoration: none;}
+
+    /*Corpo*/
+    .main-login {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+    }
+
+    .login-esquerda {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .login-esquerda > h1 {
+        color: #000;
+        font-size: 45px;
+    }
+
+    .imagem-esquerda {
+      width: 35vw;  
+    }
+
+    .login-direita {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
+
+    .card-login {
+        width: 60%;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background-color:#04A75D ;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    
+    .card-login > h1 {
+       font-weight: 800;
+       margin: 0;
+       font-size: 30px; 
+    }
+
+    .textfield {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .textfield > input {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: #A9CF47;
+        color: #000;
+        font-size: 12pt;
+        box-shadow:  0px 10px 40px #00000056;
+        box-sizing: border-box;
+    }
+
+    .textfield > label {
+        color: #000;
+        margin-bottom: 10px;
+    }
+
+    .textfield > input::placeholder {
+       color: #000; 
+    }
+
+    .btn-login {
+        width: 100%;
+        padding: 16px 0px;
+        margin: 25px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #000;
+        background-color: #A9CF47;
+        cursor: pointer;
+        box-shadow: 0px 10px 40px -12px #00ff8052;
+    }
+
+
+    
